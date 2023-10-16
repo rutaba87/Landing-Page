@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edu-Ford's About</title>
+    <meta name="viewport" content="width=device-width, scale=1.0" />
+    <link rel="stylesheet" href="/eduford.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!--------Header------>
+    <section class="sub-header">
+      <nav>
+        <a href="eduford.html"><img src="/Images/vu-logo.png" /></a>
+
+        <div class="nav-links" id="nav-Links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="/assets/eduford.html">Home</a></li>
+            <li><a href="/assets/about-eduford.html">About</a></li>
+            <li><a href="/assets/course.html">Course</a></li>
+            <li><a href="/assets/blog.html">Blog</a></li>
+            <li><a href="/assets/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We Are The Asia's First Online University</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac
+            commodo velit, id iaculis ligula. Phasellus eget felis eu dolor
+            ornare condimentum. Fusce a dictum orci, nec placerat nibh. Mauris
+            auctor, odio at finibus volutpat, nisl nulla facilisis turpis, eu
+            pellentesque nulla arcu ut neque. Ut laoreet nisl a gravida
+            suscipit. Quisque dui lacus, pretium id tortor id, pretium viverra
+            augue. Donec non fringilla est, eget pharetra nulla. Sed nisl nisi,
+            convallis a lorem id, sagittis egestas ipsum. Nam orci risus,
+            gravida sit amet faucibus ac, luctus ac ante. Aliquam ut
+            pellentesque mauris, a pharetra quam. Vivamus luctus est sed sem
+            aliquam venenatis. Proin laoreet hendrerit vestibulum.
+          </p>
+          <a class="hero-btn red-btn" href="/Images/Vu.jpg">Explore Now</a>
+        </div>
+        <div class="about-col">
+          <img src="/Images/about.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!--------Footer------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor youuuuu sit amet, consectetur adipiscing elit,Lorem
+        ipsum dolor sit amet, consectetur adipiscing <br />elit, sed do eiusmod
+        tempor incididunt ut labore etsed do eiusmod tempor incididunt ut labore
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+
+      <p><i class="fa fa-copyright"></i> Virtual University Of Pakistan</p>
+    </section>
+
+    <!--------JavaScript for toggle Menu------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Edu-Ford's Contact</title>
+    <meta name="viewport" content="width=device-width, scale=1.0" />
+    <link rel="stylesheet" href="/eduford.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!--------Header------>
+    <section class="sub-header">
+      <nav>
+        <a href="eduford.html"><img src="/Images/vu-logo.png" /></a>
+        <div class="nav-links" id="nav-Links">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="/assets/eduford.html">Home</a></li>
+            <li><a href="/assets/about-eduford.html">About</a></li>
+            <li><a href="/assets/course.html">Course</a></li>
+            <li><a href="/assets/blog.html">Blog</a></li>
+            <li><a href="/assets/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Contact Us</h1>
+    </section>
+
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We Are The Asia's First Online University</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac
+            commodo velit, id iaculis ligula. Phasellus eget felis eu dolor
+            ornare condimentum. Fusce a dictum orci, nec placerat nibh. Mauris
+            auctor, odio at finibus volutpat, nisl nulla facilisis turpis, eu
+            pellentesque nulla arcu ut neque. Ut laoreet nisl a gravida
+            suscipit. Quisque dui lacus, pretium id tortor id, pretium viverra
+            augue. Donec non fringilla est, eget pharetra nulla. Sed nisl nisi,
+            convallis a lorem id, sagittis egestas ipsum. Nam orci risus,
+            gravida sit amet faucibus ac, luctus ac ante. Aliquam ut
+            pellentesque mauris, a pharetra quam. Vivamus luctus est sed sem
+            aliquam venenatis. Proin laoreet hendrerit vestibulum.
+          </p>
+          <a class="hero-btn red-btn" href="">Explore Now</a>
+        </div>
+        <div class="about-col">
+          <img src="/Images/about.jpg" />
+        </div>
+      </div>
+    </section>
+    <!-- contact us  -->
+    <section>
+      <div class="location">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14143117.941545919!2d60.323371148826894!3d30.068124090484666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1657353599999!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>XYZ Road, ABC Building</h5>
+              <p>Karachi, Pakistan</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>+92 123123456</h5>
+              <p>Monday to Saturday 6am to 6pm</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>gmm@vu.edu.pk</h5>
+              <p>Email Us Your Query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="">
+            <input type="text" placeholder="Enter your name" required />
+            <input type="email" placeholder="Enter email address" required />
+            <input type="text" placeholder="Enter your subject" required />
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button class="hero-btn red-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--------Footer------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor youuuuu sit amet, consectetur adipiscing elit,Lorem
+        ipsum dolor sit amet, consectetur adipiscing <br />elit, sed do eiusmod
+        tempor incididunt ut labore etsed do eiusmod tempor incididunt ut labore
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-github"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+      </div>
+
+      <p><i class="fa fa-copyright"></i> Virtual University Of Pakistan</p>
+    </section>
+
+    <!--------JavaScript for toggle Menu------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
